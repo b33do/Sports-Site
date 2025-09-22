@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sports Dashboard ⚽🏎️</h1>
+        <nav>
+            <button id="btn-soccer" class="sport-btn active">Soccer</button>
+            <button id="btn-f1" class="sport-btn">Formula 1</button>
+        </nav>
+    </header>
+    <main>
+        <div id="soccer-controls" class="controls-container">
+            <label for="league-select">Choose a League:</label>
+            <select id="league-select">
+                <option value="4328">English Premier League</option>
+                <option value="4335">Spanish La Liga</option>
+                <option value="4332">Italian Serie A</option>
+                <option value="4331">German Bundesliga</option>
+                <option value="4334">French Ligue 1</option>
+            </select>
+            <!-- New controls for Soccer view -->
+            <div id="soccer-view-controls" class="view-toggle">
+                <button data-view="standings" class="view-btn active">Standings</button>
+                <button data-view="fixtures" class="view-btn">Upcoming Fixtures</button>
+            </div>
+        </div>
+
+        <div id="f1-controls" class="controls-container hidden">
+            <button data-type="results">Latest Race Results</button>
+            <button data-type="drivers">Driver Standings</button>
+            <button data-type="constructors">Constructor Standings</button>
+            <div id="f1-year-container" class="hidden">
+                <label for="f1-year-select">Select Year:</label>
+                <select id="f1-year-select"></select>
+            </div>
+        </div>
+
+        <div id="data-container">
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
