@@ -1,15 +1,64 @@
-Live Sports Dashboard
-A clean and dynamic sports dashboard built with vanilla JavaScript, HTML, and CSS. This single-page application fetches and displays up-to-date standings and results for both soccer and Formula 1 using free, public APIs.FeaturesDual Sport Support: Seamlessly switch between Soccer and Formula 1 views.
-Interactive Soccer Data:
-Browse standings for Europe's top 5 leagues (Premier League, La Liga, Serie A, Bundesliga, Ligue 1).
-View the complete league table for all teams.
-Team logos are displayed with a clean fallback icon for missing images.Comprehensive Formula 1 Data:
-View the results of the latest race.
-Browse historical Driver and Constructor standings with a dropdown to select the season (last 5 years).
-Fully Responsive: The layout is designed to work smoothly on desktop, tablets, and mobile devices.
-Lightweight & Fast: Built with no external frameworks for maximum performance.
-APIs Used
-This project relies on two excellent free APIs: TheSportsDB: Used for all soccer league standings data.Jolpi.ca Ergast API Replacement: A free, public replacement for the original Ergast F1 API, used for all Formula 1 data.
-How to RunClone this repository to your local machine.
-Open the index.html file in your web browser. A local server (like the VS Code Live Server extension) is recommended for the best experience.No API keys are required!
-This project was built as a fun way to practice fetching and displaying data from multiple third-party APIs in a clean user interface.
+# Live Sports Dashboard
+
+A lightweight, single-page web application that displays live sports data for both soccer and Formula 1. Built using vanilla JavaScript, HTML, and CSS, the dashboard focuses on performance, simplicity, and responsiveness.
+
+## Features
+
+**Dual Sport Support**
+Switch between Soccer and Formula 1 views within a single interface.
+
+**Soccer Data**
+
+* View standings from Europe’s top 5 leagues:
+
+  * Premier League
+  * La Liga
+  * Serie A
+  * Bundesliga
+  * Ligue 1
+* Full league tables for all teams
+* Team logos with fallback icons for missing images
+
+**Formula 1 Data**
+
+* Latest race results
+* Driver and Constructor standings
+* Season selector (last 5 years)
+
+**Responsive Design**
+Works across desktop, tablet, and mobile devices.
+
+**Performance Focused**
+No external frameworks — minimal and fast.
+
+---
+
+## Technologies Used
+
+* HTML
+* CSS
+* JavaScript (Vanilla)
+
+---
+
+## APIs
+
+* **TheSportsDB** — Soccer league standings
+* **Jolpi.ca (Ergast API replacement)** — Formula 1 data
+
+---
+
+## Setup
+
+1. Clone the repository
+2. Open `index.html` in your browser
+
+For best results, use a local server (e.g., VS Code Live Server).
+
+No API keys required.
+
+---
+
+## Purpose
+
+This project was built to practice working with third-party APIs, handling asynchronous data, and presenting it in a clean, user-friendly interface without relying on external frameworks.
